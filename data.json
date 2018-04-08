@@ -1,0 +1,47 @@
+{
+  "basics":{
+    "name":"samyuktha",
+    "photo":"images.jpg",
+    "email":"saisamyukthaysr@gmail.com",
+    "mobileno":"9505575655",
+    "Address":"SVIT College"
+  },
+  "career":{
+    "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+  },
+"education":[
+{
+  "degree":"B-tech",
+  "institute":"SVIT,Ananthapur",
+  "data":["2016-20","73%"]
+},
+{
+  "degree":"Intermediate",
+  "institute":"sri sai,Ananthapur",
+  "data":["2014-16","80%"]
+},
+{
+  "degree":"SSC",
+  "institute":"MKET,Puttaparthy",
+  "data":["2013-14","95%"]
+}
+],
+"skills":[
+  {
+    "sname":"Languages",
+    "sdata":["C","C++","Java"]
+  },
+  {
+    "Sname":"DataBases",
+    "sdata":["Oracle","Mysql","Mysqlite","PDO"]
+  },
+  {
+    "sname":"Web Technologies",
+    "sdata":["HTML","XML","CSS","PHP","JavaScript"]
+  },
+  {
+    "sname":"Operating-systems",
+    "sdata":["Windows","Linux","Unix"]
+  }
+]
+}

@@ -1,0 +1,106 @@
+.main{
+  background-color: black;
+  border:1px solid skyblue;
+  display:flex;
+  flex-direction:row;
+}
+.profile{
+  padding:2%;
+  margin:2%;
+  border-radius:10%;
+  background-color: gold;
+  border:2px solid red;
+  width:35%;
+  font-size:25px;
+  text-align:center;
+}
+.profile img{
+  width:100px;
+  border-radius:50%;
+  border:2px solid green;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.content{
+  padding:2%;
+  margin:2%;
+  border-radius:10%;
+  background-color: pink;
+  border:2px solid red;
+  width:65%;
+}
+@media only screen and (max-width:480px){
+  .main{
+    background-color: green;
+    border:1px solid skyblue;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+  }
+  .profile{
+    padding:2%;
+    margin:2%;
+    border-radius:10%;
+    background-color:red;
+    border:2px solid indigo;
+    width:92%;
+    font-size:25px;
+    text-align:center;
+  }
+  .profile img{
+    width:100px;
+    border-radius:50%;
+    border:2px solid green;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .content{
+    padding:2%;
+    margin:2%;
+    border-radius:10%;
+    background-color: skyblue;
+    border:2px solid black;
+    width:92%;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:769px){
+  .main{
+    background-color: #ddd;
+    border:1px solid skyblue;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    background-color:red;
+  }
+  .profile{
+    padding:2%;
+    margin:2%;
+    border-radius:10%;
+    background-color:skyblue;
+    border:2px solid black;
+    width:92%;
+    font-size:25px;
+    font-style: italic;
+    text-align:left;
+  }
+  .profile img{
+    width:100px;
+    border-radius:100%;
+    border:3px solid green;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .content{
+    padding:2%;
+    margin:2%;
+    border-radius:10%;
+    background-color: pink;
+    border:2px solid indigo;
+    width:92%;
+    font-style: oblique;
+  }
+}
+}
